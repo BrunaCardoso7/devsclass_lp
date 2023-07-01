@@ -12,18 +12,25 @@ body, html {
     width: 100vw;
     margin: 0 auto;
     background-color: black;
+    color: aliceblue;
+    overflow-x: hidden;
 }
 /* header */
 header{
     width: 80vw;
     margin: 0 auto;
+
 }
+
 .conteiner_header{
+    width: 80vw;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 120px;
-    position: absolute;
+    gap: 5vw;
     margin: 20px;
     z-index: 5;
 }
@@ -56,7 +63,7 @@ header{
     transition: background-color 0.3s ease;
 }
 .conteiner_link_navbar{
-    position: absolute;
+    position: fixed;
     left: -1px;
     width: 100vw;
     top: 60px;
@@ -75,7 +82,7 @@ header{
     background-image: url('/imagens/5061807.jpg');
     background-size: cover;
     background-position: center;
-    filter: blur(10px); /* Define o desfoque */
+    filter: blur(10px);
     z-index: 1;
 
 }
@@ -86,7 +93,7 @@ header{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Define a cor de sobreposição preta com opacidade */
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
 .conteiner_text{
@@ -101,10 +108,10 @@ header{
 }
 .conteiner_text h2{
     margin: 20px 0;
-    font-size: 1.7em;
+    font-size: 1.4em;
 }
 .conteiner_text p{
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: rgb(179, 179, 179);
 }
 .gradient-text{
@@ -128,7 +135,160 @@ header{
     border: none;
 }
 .conteiner_text button>a{
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 600;
     color: white;
+}
+
+/* sobre nos seção */
+.section_weAbout{
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+}
+.conteiner_weAbout_text h2{
+    width: 60vw;
+    font-size: 1.8em;
+    font-weight: 400;
+    margin: 25px auto;
+}
+.conteiner_weAbout_text h2>span{
+    font-weight: 500;
+    color: #FFF600;
+}
+.conteiner_weAbout_text p{
+    font-weight: 200;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+.consteiner_equip h3{
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-bottom: 60px;
+}
+.card_member{
+    position: relative;
+    background-color: rgb(15, 15, 15);
+    padding: 40px 10px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 15px 2px rgba(255, 255, 0, 0.34);
+}
+.card_member:hover{
+    box-shadow: 1px 1px 15px 2px rgba(255, 255, 0, 0.598);
+}
+.card_member img{
+    position: absolute;
+    bottom: 82%;
+    left: 42%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.card_member h6>span{
+    color: red;
+}
+.card_member p{
+    font-size: .8em;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.card_member ul>li{
+    font-size: .8em;
+    margin-bottom: 5px;
+}
+#contato{
+    border: none;
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#portifolio{
+    border: none;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#portifolio a{
+    color: blue;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+#contato a{
+    color: white;
+    font-size: 1.1em;
+    font-weight: 400;
+   
+}
+/* tecnology */
+.conteiner_Abouttecnology{
+    background-color: #191919;
+    height: 100vh;
+}
+.conteiner_rainImg{
+    position: relative;
+    width: 80vw;
+    margin: 0 auto;
+}
+.conteiner_rainImg img{
+    position: absolute;
+    height: 8vh;
+  
+}
+#img1{
+    position: absolute;
+    top: 18vh;
+    right: 10vw;
+    height: 4vh;
+}
+#img2{
+    position: absolute;
+    top: 12vh;
+    left: 10vh;
+    rotate: -10deg;
+    height: 7vh;
+}
+#img3{
+    position: absolute;
+    top: 1vh;
+    right: 3vh;
+    rotate: 10deg;
+    height: 4vh;
+}
+#img4{
+    position: absolute;
+    top: 22vh;
+    right: 30vh;
+    rotate: 10deg;
+    height: 4vh;
+}
+#img5{
+    position: absolute;
+    top: -1vh;
+    right: 24vh;
+    rotate: 10deg;
+    height: 7vh;
+}
+#img6{
+    position: absolute;
+    top: 5vh;
+    right: 10vh;
+    rotate: 10deg;
+    height: 8vh;
+}
+.about_tecnologyText{
+    width: 80vw;
+    position: relative;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.about_tecnologyText h3{
+    font-size: 1.8em;
+    text-align: center;
+}
+.about_tecnologyText p{
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px;
+    font-weight: 200;
 }
