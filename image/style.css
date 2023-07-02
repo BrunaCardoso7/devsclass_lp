@@ -88,7 +88,7 @@ header{
 }
 .conteiner_hero::before{
     content: "";
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -291,4 +291,106 @@ header{
     text-align: center;
     margin: 10px;
     font-weight: 200;
+}
+/* servicess */
+.conteiner{
+    position: relative;
+    padding: 10%;
+    max-width: 90vw;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.section_services h2{
+    width: 70vw;
+    margin: 0px auto;
+    margin-top: 50px;
+    font-size: 2em;
+    color: #FFF600;
+}
+
+.img{
+    width: 70vw;
+}
+.img h4{
+    font-size: 1.2em;
+}
+.conteiner_partServices button{
+    font-size: 1.2em;
+    font-weight: 800;
+    border: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
+.conteiner_partServices h5{
+    font-size: 1.2em;
+    color: yellow;
+}
+.conteiner_partServices p{
+    font-size: 1.2em;
+    
+}
+.conteiner_partServices p{
+    margin: 10px 0;
+}
+.conteiner_imageTaste{
+    position: relative;
+    height: 40vh;
+    width: 70vw;
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+.entiqueta{
+    position: absolute;
+    bottom: -5%;
+    left: 18%;
+    width: 30px;
+    
+}
+.entiqueta p{
+    width: 180px;
+    text-align: center;
+    background-color: #FFF600;
+    padding: 10px;
+    color: #191919;
+    font-size: 1.3em;
+    font-weight: 800;
+}   
+.entiqueta span{
+    color: darkgreen;
+}   
+#left{
+    position: absolute;
+    top: 30%;
+    left: -1%;
+}
+#right{
+    position: absolute;
+    top: 30%;
+    left: 90%;
+}
+.conteiner_text_services{
+    margin: 100px 0;
+}
+
+.etq1{
+    position: absolute;
+    bottom: -15%;
+    left: 15%;
+
+}
+.etq2{
+    position: absolute;
+    bottom: -15%;
+    left: 15%;
+
+}
+.etq3{
+    position: absolute;
+    bottom: -15%;
+    left: 15%;
+
 }
