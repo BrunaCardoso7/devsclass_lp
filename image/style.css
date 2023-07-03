@@ -88,19 +88,11 @@ header{
     background-size: cover;
     background-position: center;
     filter: blur(5px);
+    filter: drop-shadow(-50);
     z-index: 1;
 
 }
-/* .conteiner_hero::before{
-    content: "";
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
-}  */
+
 
 .conteiner_text{
     width: 80vw;
@@ -115,24 +107,17 @@ header{
 }
 .conteiner_text h2{
     margin: 20px 0;
-    font-size: 1.4em;
+    font-size: 1.6em;
+
+}
+.conteiner_text h2 span{
+    color: yellow;
 }
 .conteiner_text p{
     font-size: 1.3em;
     color: rgb(179, 179, 179);
 }
-.gradient-text{
-    background-image: linear-gradient(to right, #8D891B, #FFF600);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-}
-.gradient-text2{
-    background-image: linear-gradient(to right #FFF600, #8D891B);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-}
+
 .conteiner_text button{
     margin-top: 50px;
     border-radius: 10px;
@@ -326,15 +311,15 @@ header{
     font-size: 1.2em;
     font-weight: 800;
     border: none;
-    background-color: yellow;
+    background-color: white;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
-    color: gray;
+    color: blue;
 }
 .conteiner_partServices h5{
     font-size: 1.2em;
-    color: yellow;
+    color: rgb(228, 228, 3);
 }
 .conteiner_partServices p{
     font-size: 1.2em;
@@ -347,20 +332,20 @@ header{
     position: relative;
     height: 40vh;
     width: 70vw;
-    background-color: antiquewhite;
+    background-color: rgb(242, 248, 252);
     margin-top: 20px;
 }
 .entiqueta{
     position: absolute;
     bottom: -5%;
-    left: 18%;
+    left: 20%;
     width: 30px;
     
 }
 .entiqueta p{
     width: 180px;
     text-align: center;
-    background-color: #FFF600;
+    background-color: #e7df00;
     padding: 10px;
     color: #191919;
     font-size: 1.3em;
@@ -380,7 +365,8 @@ header{
     left: 90%;
 }
 .conteiner_text_services{
-    margin: 100px 0;
+    margin: 10px 0;
+    margin-bottom: 100px;
 }
 
 .etq1{
