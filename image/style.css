@@ -107,7 +107,7 @@ header{
 }
 .conteiner_text h2{
     margin: 20px 0;
-    font-size: 1.6em;
+    font-size: 1.8em;
 
 }
 .conteiner_text h2 span{
@@ -122,7 +122,7 @@ header{
     margin-top: 50px;
     border-radius: 10px;
     padding: 20px 30px;
-    background-color: #ebe305d2;
+    background-color: #F7DF1E;
     color: white;
     border: none;
 }
@@ -170,10 +170,13 @@ header{
 }
 .card_member img{
     position: absolute;
-    bottom: 82%;
-    left: 42%;
-    height: 50px;
+    bottom: 80%;
+    left: 38%;
+    height: 80px;
     margin-bottom: 15px;
+}
+.card_member h6{
+    font-size: 1em;
 }
 .card_member h6>span{
     color: red;
@@ -309,7 +312,7 @@ header{
 }
 .conteiner_partServices button{
     font-size: 1.2em;
-    font-weight: 800;
+    font-weight: 600;
     border: none;
     background-color: white;
     padding: 10px;
@@ -322,7 +325,7 @@ header{
     color: rgb(228, 228, 3);
 }
 .conteiner_partServices p{
-    font-size: 1.2em;
+    font-size: 1.1em;
     
 }
 .conteiner_partServices p{
@@ -345,7 +348,7 @@ header{
 .entiqueta p{
     width: 180px;
     text-align: center;
-    background-color: #e7df00;
+    background-color: #F7DF1E;
     padding: 10px;
     color: #191919;
     font-size: 1.3em;
@@ -372,18 +375,18 @@ header{
 .etq1{
     position: absolute;
     bottom: -15%;
-    left: 15%;
+    left: 18%;
 
 }
 .etq2{
     position: absolute;
     bottom: -15%;
-    left: 15%;
+    left: 18%;
 
 }
 .etq3{
     position: absolute;
     bottom: -15%;
-    left: 15%;
+    left: 18%;
 
 }
