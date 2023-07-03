@@ -77,16 +77,21 @@ header{
 }
 /* hero */
 .conteiner_hero{
+     position: relative;
+
+}
+.conteiner_img_text{
     width: 100vw;
     height: 100vh;
+    position: relative;
     background-image: url('/imagens/5061807.jpg');
     background-size: cover;
     background-position: center;
-    filter: blur(10px);
+    filter: blur(5px);
     z-index: 1;
 
 }
-.conteiner_hero::before{
+/* .conteiner_hero::before{
     content: "";
     position: relative;
     top: 0;
@@ -95,7 +100,8 @@ header{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
-}
+}  */
+
 .conteiner_text{
     width: 80vw;
     margin: 0 auto;
@@ -105,6 +111,7 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 2;
 }
 .conteiner_text h2{
     margin: 20px 0;
@@ -138,7 +145,7 @@ header{
     font-size: 1.6em;
     font-weight: 600;
     color: white;
-}
+} 
 
 /* sobre nos seção */
 .section_weAbout{
