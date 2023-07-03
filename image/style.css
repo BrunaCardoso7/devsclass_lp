@@ -80,11 +80,11 @@ header{
      position: relative;
 
 }
-.conteiner_img_text{
+.conteiner_img_text{ 
     width: 100vw;
     height: 100vh;
     position: relative;
-    background-image: url('/imagens/5061807.jpg');
+    background-image: url('../imagens/5061807.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(5px);
