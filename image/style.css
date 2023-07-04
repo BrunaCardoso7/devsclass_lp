@@ -293,7 +293,7 @@ header{
     padding: 10%;
     max-width: 90vw;
     margin: 0 auto;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .section_services h2{
@@ -355,7 +355,7 @@ header{
     font-weight: 800;
 }   
 .entiqueta span{
-    color: darkgreen;
+    color: rgb(4, 202, 4);
 }   
 #left{
     position: absolute;
@@ -389,4 +389,58 @@ header{
     bottom: -15%;
     left: 18%;
 
+}
+/* avaliações */
+.section_ava{
+
+    width: 100vw;
+    background-color: gray;
+}
+.conteiner_avalia{
+    background-image: url(../imagens/sep09.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    /* height: 100vh; */
+    width: 100vw;
+    
+}
+.conteiner_text_img2{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.conteiner_text_img2 h2{
+    text-align: center;
+    font-size: 1.8em;
+}
+.conteiner_avalia img{
+    width: 100vw;
+}
+.avaliacao{
+    width: 300px;
+    height: 500px;
+    background-color: #444444;
+    margin: 50px auto;
+ 
+}
+/* sessão formulário */
+.conteiner_form{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.redeSociais button>img{
+    height: 30px;
 }
