@@ -348,14 +348,14 @@ header{
 .entiqueta p{
     width: 180px;
     text-align: center;
-    background-color: #F7DF1E;
+    background-color: yellow;
     padding: 10px;
     color: #191919;
     font-size: 1.3em;
     font-weight: 800;
 }   
 .entiqueta span{
-    color: rgb(4, 202, 4);
+    color: rgb(0, 165, 0);
 }   
 #left{
     position: absolute;
