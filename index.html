@@ -190,20 +190,21 @@
                     <div class="form">
                         <h3>Contato</h3>
                         <form action="#" method="post">
-                            <div class="conteiner_input">
-                                <input name="name" type="text" required placeholder="Nome Completo...">
-                                <label for="name">Nome <span style="color: red;">*</span></label>
+                            <div class="table">
+                                <div class="conteiner_input">
+                                    <input id="name" name="name" type="text" required>
+                                    <label class="padrao" for="name">Nome <span style="color: red;">*</span></label>
+                                </div>
+                                <div class="conteiner_input">
+                                    <input id="tel" name="tel" type="tel" required>
+                                    <label class="padrao" for="tel">Telefone <span style="color: red;">*</span></label>
+                                </div>
                             </div>
                             <div class="conteiner_input">
-                                <input name="tel" type="tel" required placeholder="numero para contato...">
-                                <label for="tel">Telefone <span style="color: red;">*</span></label>
+                                <input id="email" name="email" type="email" required>
+                                <label class="padrao" for="email">E-mail <span style="color: red;">*</span></label>
                             </div>
                             <div class="conteiner_input">
-                                <input name="email" type="email" required placeholder="E-mail...">
-                                <label for="name">E-mail <span style="color: red;">*</span></label>
-                            </div>
-                            <div class="conteiner_input">
-                                <label for="projeto">Nome <span style="color: red;">*</span></label>
                                 <select name="projeto" id="project">
                                     <option value="modelo">Selecione o modelo do projeto</option>
                                     <option value="landingPage">Landing Page</option>
@@ -212,8 +213,8 @@
                                 </select>
                             </div>
                             <div class="conteiner_input">
-                                <label for="name">Mensagem <span style="color: red;">*</span></label>
-                                <textarea name="mensagem" id="msg" cols="30" rows="1">digite o assunto, e detalhes do projeto</textarea>
+                                <label for="msg">Mensagem <span style="color: red;">*</span></label>
+                                <textarea name="mensagem" id="msg" cols="25" rows="1">Detalhes do projeto...</textarea>
                             </div>
                             <div class="btn_form">
                                 <button>Enviar</button>
@@ -222,8 +223,8 @@
                     </div>
                     <div style="display: none;"><img src="imagens/SuperMarioRun_3F3F.webp" alt=""></div>
                     <div class="redeSociais">
-                        <button><img src="imagens/instagram (1).png" alt="">instagram</button>
-                        <button><img src="imagens/whatsapp (1).png" alt="">WhatsApp</button>
+                        <div class="btn"><img src="imagens/instagram (1).png" alt=""><p>Instagram</p></div>
+                        <div class="btn"><img src="imagens/whatsapp (1).png" alt=""><p>WhatsApp</p></div>
                     </div>
                 </div>
             </div>
