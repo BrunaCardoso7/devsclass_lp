@@ -429,12 +429,15 @@ header{
 .conteiner_form{
     width: 80vw;
     margin: 0 auto;
+    height: 100vh;
     
 }
 .conteiner_form h2{
-    font-size: 1.8em;
+    font-size: 1.9em;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
 }
 .form{
     width: 80vw;
@@ -444,8 +447,10 @@ header{
     color: black;
     align-items: center;
     border-radius: 10px;
+    height: 60vh;
 }
 .form h3{
+    margin: 0 auto;
     font-size: 1.5em;
     margin-bottom: 30px;
 }
@@ -457,13 +462,14 @@ header{
     background-color: aliceblue;
     border: none;
     border-bottom: 1px solid blue;
-    height: 5vh;
-    font-size: 1.2em;
+    height: 6vh;
+    font-size: 1.1em;
     outline: none;
+    width: 75vw;
 }
 
 .padrao{
-    font-size: 1.2em;
+    font-size: .9em;
     position: absolute;
     left: 12%;
     
@@ -500,6 +506,8 @@ header{
     background-color: red;
     font-size: 1.2em;
     border: none;
+    width: 310px;
+    margin: 0 auto;
 }
 
 .btn{
@@ -526,3 +534,4 @@ header{
 .btn img{
     height: 30px;
 }
+/* como funciona */
