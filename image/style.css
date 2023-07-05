@@ -555,11 +555,7 @@ header{
     font-size: 1.8em;
     margin: 20px 0;
 }
-/* .consteiner_processCreation h2>span{
 
-    color: #F7DF1E;
-
-} */
 .tasksdesing h3{
     margin: 20px 0;
 }
@@ -588,4 +584,38 @@ header{
 .taskDeveloper p>span{
     color: #F7DF1E;
     font-weight: 800;
+}
+/* rodapé */
+.rodape{
+    height: 20vh;
+    background-color: black;
+}
+.conteiner_footer{
+    width: 80vw;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.conteiner_footer_redessociais img{
+    height: 5vh;
+}
+.conteiner_logo_email_tel{
+    text-align: center;
+}
+.conteiner_logo_email_tel h2{
+    font-size: 1.2em;
+    margin:10px 0;
+}
+.conteiner_logo_email_tel h2>span{
+    color: #F7DF1E;
+}
+.conteiner_footer_redessociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
