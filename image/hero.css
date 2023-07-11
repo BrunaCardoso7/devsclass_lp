@@ -1,0 +1,54 @@
+.conteiner_hero{
+    position: relative;
+
+}
+.conteiner_img_text{ 
+   width: 100vw;
+   height: 100vh;
+   position: relative;
+   background-image: url('../imagens/5061807.jpg');
+   background-size: cover;
+   background-position: center;
+   filter: blur(5px);
+   filter: drop-shadow(-50);
+   z-index: 1;
+
+}
+.conteiner_text{
+   width: 80vw;
+   margin: 0 auto;
+   text-align: center;
+   color: aliceblue;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+}
+.conteiner_text h2{
+   margin: 20px 0;
+   font-size: 7vw;
+   line-height: .9em;
+
+}
+.conteiner_text h2 span{
+   color: yellow;
+}
+.conteiner_text p{
+   font-size: 4vw;
+   color: rgb(179, 179, 179);
+}
+
+.conteiner_text button{
+   margin-top: 50px;
+   border-radius: 10px;
+   padding: 10px 20px;
+   background-color: #F7DF1E;
+   color: white;
+   border: none;
+}
+.conteiner_text button>a{
+   font-size: 5vw;
+   font-weight: 400;
+   color: white;
+} 

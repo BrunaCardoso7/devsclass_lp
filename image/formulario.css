@@ -1,0 +1,108 @@
+.conteiner_form{
+    width: 80vw;
+    margin: 0 auto;
+    height: 100vh;
+    
+}
+.conteiner_form h2{
+    font-size: 1.9em;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+.form{
+    width: 80vw;
+    margin: 0 auto;
+    padding:  50px 10px;
+    background-color: aliceblue;
+    color: black;
+    align-items: center;
+    border-radius: 10px;
+    height: 60vh;
+}
+.form h3{
+    margin: 0 auto;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.conteiner_input{
+    margin: 10px auto;
+}
+.conteiner_input input{
+    position: relative;
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 1px solid blue;
+    height: 6vh;
+    font-size: 1.1em;
+    outline: none;
+    width: 75vw;
+}
+
+.padrao{
+    font-size: .9em;
+    position: absolute;
+    left: 12%;
+    
+}
+.clicado{
+    font-size: .8em;
+    position: absolute;
+    left: 12%;
+}
+.conteiner_input select{
+    position: relative;
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 1px solid blue;
+    height: 5vh;
+    font-size: 1em;
+    outline: none;
+    color: gray;
+    
+}
+.conteiner_input textarea{
+    position: relative;
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 1px solid blue;
+    height: 5vh;
+    font-size: 1.2em;
+    outline: none;
+    color: gray;
+}
+.btn_form button{
+    padding: 10px;
+    color: white; 
+    background-color: red;
+    font-size: 1.2em;
+    border: none;
+    width: 310px;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+    align-items: center;
+    font-size: 1.2em;
+    color:black; 
+    width: 200px;
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.redeSociais {
+    margin: 30px 0;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.btn img{
+    height: 30px;
+}

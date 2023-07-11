@@ -1,0 +1,102 @@
+.conteiner{
+    position: relative;
+    padding: 10%;
+    max-width: 90vw;
+    margin: 0 auto;
+    /* height: 100vh; */
+}
+
+.section_services h2{
+    width: 70vw;
+    margin: 0px auto;
+    margin-top: 50px;
+    font-size: 2em;
+    color: #FFF600;
+}
+
+.img{
+    width: 70vw;
+}
+.img h4{
+    font-size: 1.2em;
+}
+.conteiner_partServices button{
+    font-size: 1.2em;
+    font-weight: 600;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: blue;
+}
+.conteiner_partServices h5{
+    font-size: 1.2em;
+    color: rgb(228, 228, 3);
+}
+.conteiner_partServices p{
+    font-size: 1.1em;
+    
+}
+.conteiner_partServices p{
+    margin: 10px 0;
+}
+.conteiner_imageTaste{
+    position: relative;
+    height: 40vh;
+    width: 70vw;
+    background-color: rgb(242, 248, 252);
+    margin-top: 20px;
+}
+.entiqueta{
+    position: absolute;
+    bottom: -5%;
+    left: 20%;
+    width: 30px;
+    
+}
+.entiqueta p{
+    width: 180px;
+    text-align: center;
+    background-color: yellow;
+    padding: 10px;
+    color: #191919;
+    font-size: 1.3em;
+    font-weight: 800;
+}   
+.entiqueta span{
+    color: rgb(0, 165, 0);
+}   
+#left{
+    position: absolute;
+    top: 30%;
+    left: -1%;
+}
+#right{
+    position: absolute;
+    top: 30%;
+    left: 90%;
+}
+.conteiner_text_services{
+    margin: 10px 0;
+    margin-bottom: 100px;
+}
+
+.etq1{
+    position: absolute;
+    bottom: -15%;
+    left: 18%;
+
+}
+.etq2{
+    position: absolute;
+    bottom: -15%;
+    left: 18%;
+
+}
+.etq3{
+    position: absolute;
+    bottom: -15%;
+    left: 18%;
+
+}

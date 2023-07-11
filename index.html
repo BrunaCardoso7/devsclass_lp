@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="fontawasome/fontawesome-free-6.4.0-web/css/all.min.css"/>
      <link rel="stylesheet" href="image/style.css">
+     <link rel="stylesheet" href="image/hero.css">
+     <link rel="stylesheet" href="image/weAbout.css">
+     <link rel="stylesheet" href="image/tecnology.css">
+     <link rel="stylesheet" href="image/service.css">
+     <link rel="stylesheet" href="image/avaliacoes.css">
+     <link rel="stylesheet" href="image/formulario.css">
+     <link rel="stylesheet" href="image/funciona.css">
+     <link rel="stylesheet" href="image/rodape.css">
     <title>DEV S-Class | Desenvolvimento de sites</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <div class="conteiner_header_navbar">
             <div class="conteiner_header">
@@ -65,20 +73,20 @@
                 </div>
                 <div class="conteiner_img" style="display: none;">
                     <img src="imagens/Toad_SMBMovie.webp" alt="">
-                </div>
-            </div>
-            <div class="consteiner_equip">
-                <h3>Equipe que cuidará de todo processo</h3>
-                <div class="card_member">
-                    <img src="imagens/do-utilizador.png" alt="">
-                    <h6><span>Bruna</span> Cardoso</h6>
-                    <p>Análise e Desenvolvimento de Sistemas</p>
-                    <ul>
-                        <li>Developer</li>
-                        <li>Desinger UX</li>
-                    </ul>
-                    <button id="contato"><a href="#">Quero entrar em contato</a></button>
-                    <button id="portifolio"><a href="#">Acessar portifólio</a></button>
+                    </div>
+                    <div class="consteiner_equip">
+                        <h3>Equipe que cuidará de todo processo</h3>
+                        <div class="card_member">
+                        <img src="imagens/do-utilizador.png" alt="">
+                        <h6><span>Bruna</span> Cardoso</h6>
+                        <p>Análise e Desenvolvimento de Sistemas</p>
+                        <ul>
+                            <li>Developer</li>
+                            <li>Desinger UX</li>
+                        </ul>
+                        <button id="contato"><a href="#">Quero entrar em contato</a></button>
+                        <button id="portifolio"><a href="#">Acessar portifólio</a></button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -266,7 +274,20 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
-   
+   <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 900){
+                console.log('mudou tamanho')
+                const btn_menu = document.querySelector('.fa-solid')
+                btn_menu.style.display = 'none'
+                
+                const conteiner_link_navbar = document.querySelector('.conteiner_link_navbar')
+                conteiner_link_navbar.style.overflow = 'visible'
+                conteiner_link_navbar.classList.remove('active')
+
+            }
+        }
+   </script>
 
 </body>
 </html>
