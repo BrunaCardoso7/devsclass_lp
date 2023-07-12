@@ -16,82 +16,26 @@ body, html {
     overflow-x: hidden;
 }
 /* header */
-header{
-    width: 80vw;
-    margin: 0 auto;
+@media(max-width: 800px){
+    header{
+        width: 80vw;
+        margin: 0 auto;
+    }
 
-}
-
-.conteiner_header{
-    width: 80vw;
-    margin: 0 auto;
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5vw;
-    margin: 20px;
-    z-index: 5;
-}
-.logo h5{
-    color: white;
-    font-size: 5vw;
-    font-weight: 500;
-}
-.logo h5 >span{
-    color: yellow;
-    font-weight: 800;
-}
-.fa-solid{
-    color: white;
-    font-size: 7vw;
-}
-
-.conteiner_link_navbar li > a{
-    transition: max-height 0.3s ease;
-    color: white;
-    display: flex;
-    justify-content: center;
-    height: 40px;
-    align-items: center;
-    border-bottom: 2px solid yellow;
-    background-color: rgba(0, 0, 0, 0.877);
-    overflow: hidden;
-    font-size: 1.2em;
-    font-weight: 300;
-    transition: background-color 0.3s ease;
-}
-.conteiner_link_navbar{
-    position: fixed;
-    left: -1px;
-    width: 100vw;
-    top: 60px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.1s ease;
-    z-index: 5;
-}
-.conteiner_link_navbar.active {
-    max-height: 200px; /* Ajuste conforme necessário */
-}
-@media(min-width: 600px) and (max-width: 900px)
-{
     .conteiner_header{
         width: 80vw;
         margin: 0 auto;
-        position: fixed;
-        top: 0;
+        /* position: fixed;
+        top: 0; */
         display: flex;
         justify-content: space-between;
-        align-items: center;
         gap: 5vw;
         margin: 20px;
         z-index: 5;
     }
     .logo h5{
         color: white;
-        font-size: 4vw;
+        font-size: 5vw;
         font-weight: 500;
     }
     .logo h5 >span{
@@ -100,44 +44,98 @@ header{
     }
     .fa-solid{
         color: white;
-        font-size: 5vw;
+        font-size: 7vw;
+        display: none;
     }
-    
+    .conteiner_header_navbar{
+        width: 80vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 5;
+    }
     .conteiner_link_navbar li > a{
         transition: max-height 0.3s ease;
         color: white;
         display: flex;
         justify-content: center;
-        height: 60px;
+        height: 40px;
+        width: 100vw;
         align-items: center;
         border-bottom: 2px solid yellow;
         background-color: rgba(0, 0, 0, 0.877);
         overflow: hidden;
-        font-size: 4vw;
+        font-size: 1.2em;
         font-weight: 300;
         transition: background-color 0.3s ease;
     }
     .conteiner_link_navbar{
-        position: fixed;
-        left: -1px;
+        /* position: fixed;
+        left: -1px; */
         width: 100vw;
         top: 60px;
         max-height: 0;
-        overflow: hidden;
+        display: none;
         transition: max-height 0.1s ease;
         z-index: 5;
     }
     .conteiner_link_navbar.active {
-        max-height: 300px; /* Ajuste conforme necessário */
-    }
+        max-height: 300px;  
+    } 
 }
-
-@media (min-width: 900px)
-{
+@media (min-width: 800px){
+    header{
+        width: 80vw;
+        margin: 0 auto;
+    }
     .conteiner_header{
+        width: 30vw;
+        margin: 0 auto;
         display: flex;
+        align-items: center;
+        gap: 5vw;
+        margin: 20px;
+        z-index: 5;
+    }
+    .logo h5{
+        color: white;
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    .logo h5 >span{
+        color: yellow;
+        font-weight: 800;
+    }
+    .fa-solid{
+        color: white;
+        font-size: 7vw;
+        display: none;
+    }
+    .conteiner_header_navbar{
+        width: 80vw;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 5;
     }
     .conteiner_link_navbar li > a{
-        width: 10vw;
+        color: whitesmoke;
+        font-weight: 600;
+    }
+    .conteiner_link_navbar li > a.active{
+        border-bottom: 2px solid yellow;
+    }   
+    .conteiner_link_navbar ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 60vw;
+        align-items: center;
+        z-index: 5;
     }
 }

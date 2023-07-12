@@ -15,7 +15,7 @@
      <link rel="stylesheet" href="image/rodape.css">
     <title>DEV S-Class | Desenvolvimento de sites</title>
 </head>
-<body onresize="mudouTamanho()">
+<body>
     <header>
         <div class="conteiner_header_navbar">
             <div class="conteiner_header">
@@ -26,17 +26,18 @@
             </div>
             <div class="conteiner_link_navbar">
                 <ul>
-                    <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">tecnologias</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Avaliações</a></li>
-                    <li><a href="#">Contate-nos</a></li>
+                    <li><a href="#s1">Home</a></li>
+                    <li><a href="#s2">Sobre nós</a></li>
+                    <li><a href="#s3">tecnologias</a></li>
+                    <li><a href="#s4">Serviços</a></li>
+                    <li><a href="#s5">Avaliações</a></li>
+                    <li><a href="#s6">Contate-nos</a></li>
                 </ul>
             </div>
         </div>
     </header>
     <main>
-        <section class="section_hero">
+        <section class="section_hero" id="s1">
             <div class="conteiner_hero">
                 <div class="conteiner_img_text"></div>
 
@@ -58,7 +59,7 @@
             </div>
         </div>
         </section>
-        <section class="section_weAbout">
+        <section class="section_weAbout" id="s2">
             <div class="conteiner_weAboutMore">
                 <div class="conteiner_weAbout_text">
                     <h2>Conheça mais <span>sobre nós</span></h2>
@@ -90,7 +91,7 @@
                 </div>
             </div>
         </section>
-        <section class="conteiner_Abouttecnology">
+        <section class="conteiner_Abouttecnology" id="s3">
             <div class="img_border_sv">
                 <img src="imagens/wave (4).svg" alt="">
             </div>
@@ -109,7 +110,7 @@
                      dúvidas quanto ao orçamento</p>
             </div>
         </section>
-        <section class="section_services">
+        <section class="section_services" id="s4">
             <h2>serviços</h2>
             <div id="banner" class="conteiner">
                     <div class="conteiner_partServices">
@@ -179,7 +180,7 @@
                 </div>
             </div>
         </section>
-        <section class="section_ava">
+        <section class="section_ava" id="s5">
             <div class="conteiner_avalia">
                 <img src="./imagens/wave (4).svg" alt="">
                 <div class="conteiner_text_img2">
@@ -191,7 +192,7 @@
                 </div>
             </div>
         </section>
-        <section class="section_formUser">
+        <section class="section_formUser" id="s6">
             <div class="conteiner_form">
                 <h2>Entre em contato conosco</h2>
                 <div class="conteiner_form_btn_img">
@@ -237,7 +238,7 @@
                 </div>
             </div>
         </section>
-        <section class="tasksCreated">
+        <section class="tasksCreated" id="s7">
             <div class=" consteiner_processCreation">
                 <h2>Como funciona o processo de criação</h2>
                 <div class="tasksdesing">
@@ -275,18 +276,18 @@
     </footer>
     <script src="scripts/script.js"></script>
    <script>
-        function mudouTamanho(){
-            if(window.innerWidth >= 900){
-                console.log('mudou tamanho')
-                const btn_menu = document.querySelector('.fa-solid')
-                btn_menu.style.display = 'none'
-                
-                const conteiner_link_navbar = document.querySelector('.conteiner_link_navbar')
-                conteiner_link_navbar.style.overflow = 'visible'
-                conteiner_link_navbar.classList.remove('active')
+        // function mudouTamanho(){
+        //     if(window.innerWidth >= 900){
+        //         console.log('mudou tamanho')
+        //         const btn_menu = document.querySelector('.fa-solid')
+        //         btn_menu.style.display = 'none'
 
-            }
-        }
+        //         const conteiner_link_navbar = document.querySelector('.conteiner_link_navbar')
+        //         conteiner_link_navbar.style.overflow = 'visible'
+        //         conteiner_link_navbar.classList.remove('active')
+
+        //     }
+        // }
    </script>
 
 </body>
