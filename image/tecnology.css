@@ -1,72 +1,156 @@
-.conteiner_Abouttecnology{
-    background-color: #191919;
-    height: 100vh;
+@media(max-width: 800px){
+ .conteiner_Abouttecnology{
+        background-color: #191919;
+        height: 100vh;
+    }
+    .conteiner_rainImg{
+        position: relative;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .conteiner_rainImg img{
+        position: absolute;
+        height: 8vh;
+    
+    }
+    #img1{
+        position: absolute;
+        top: 18vh;
+        right: 10vw;
+        height: 4vh;
+    }
+    #img2{
+        position: absolute;
+        top: 12vh;
+        left: 10vh;
+        rotate: -10deg;
+        height: 7vh;
+    }
+    #img3{
+        position: absolute;
+        top: 1vh;
+        right: 3vh;
+        rotate: 10deg;
+        height: 4vh;
+    }
+    #img4{
+        position: absolute;
+        top: 22vh;
+        right: 30vh;
+        rotate: 10deg;
+        height: 4vh;
+    }
+    #img5{
+        position: absolute;
+        top: -1vh;
+        right: 24vh;
+        rotate: 10deg;
+        height: 7vh;
+    }
+    #img6{
+        position: absolute;
+        top: 5vh;
+        right: 10vh;
+        rotate: 10deg;
+        height: 8vh;
+    }
+    .about_tecnologyText{
+        width: 80vw;
+        position: relative;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .about_tecnologyText h3{
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .about_tecnologyText p{
+        font-size: 1.2em;
+        text-align: center;
+        margin: 10px;
+        font-weight: 200;
+    }
 }
-.conteiner_rainImg{
-    position: relative;
-    width: 80vw;
-    margin: 0 auto;
-}
-.conteiner_rainImg img{
-    position: absolute;
-    height: 8vh;
-  
-}
-#img1{
-    position: absolute;
-    top: 18vh;
-    right: 10vw;
-    height: 4vh;
-}
-#img2{
-    position: absolute;
-    top: 12vh;
-    left: 10vh;
-    rotate: -10deg;
-    height: 7vh;
-}
-#img3{
-    position: absolute;
-    top: 1vh;
-    right: 3vh;
-    rotate: 10deg;
-    height: 4vh;
-}
-#img4{
-    position: absolute;
-    top: 22vh;
-    right: 30vh;
-    rotate: 10deg;
-    height: 4vh;
-}
-#img5{
-    position: absolute;
-    top: -1vh;
-    right: 24vh;
-    rotate: 10deg;
-    height: 7vh;
-}
-#img6{
-    position: absolute;
-    top: 5vh;
-    right: 10vh;
-    rotate: 10deg;
-    height: 8vh;
-}
-.about_tecnologyText{
-    width: 80vw;
-    position: relative;
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.about_tecnologyText h3{
-    font-size: 1.8em;
-    text-align: center;
-}
-.about_tecnologyText p{
-    font-size: 1.2em;
-    text-align: center;
-    margin: 10px;
-    font-weight: 200;
+@media(min-width: 800px){
+    .conteiner_Abouttecnology{
+        background-color: #191919;
+        height: 100vh;
+    }
+    .conteiner_rainImg{
+        position: relative;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .conteiner_rainImg img{
+        position: absolute;
+        height: 8vh;
+      
+    }
+    #img1{
+        position: absolute;
+        top: 30vh;
+        right: 30vw;
+        height: 7vh;
+    }
+    #img2{
+        position: absolute;
+        top: 38vh;
+        left: 10vh;
+        rotate: -10deg;
+        height: 10vh;
+    }
+    #img3{
+        position: absolute;
+        top: 50vh;
+        right: 20vh;
+        rotate: 10deg;
+        height: 6vh;
+    }
+    #img4{
+        position: absolute;
+        top: 45vh;
+        right: 50vh;
+        rotate: 10deg;
+        height: 6vh;
+    }
+    #img5{
+        position: absolute;
+        top: 30vh;
+        right: 70vh;
+        rotate: 10deg;
+        height: 9vh;
+    }
+    #img6{
+        position: absolute;
+        top: 28vh;
+        right: 20vh;
+        rotate: 10deg;
+        height: 10vh;
+    }
+    .about_tecnologyText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .about_tecnologyText h3{
+        font-size: 1.8em;
+        text-align: center;
+        text-shadow: 1px 1px 10px rgb(180, 180, 12);
+    }
+    .about_tecnologyText h3:hover{
+        color: rgb(248, 248, 183);
+        font-size: 1.8em;
+        text-align: center;
+        text-shadow: 1px 1px 10px yellow;
+    }
+    .about_tecnologyText p{
+        font-size: 1.2em;
+        text-align: center;
+        margin: 10px;
+        font-weight: 200;
+        width: 60vw;
+    }
 }

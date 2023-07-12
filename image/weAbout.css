@@ -81,7 +81,7 @@
     font-weight: 400;
    
 }
-@media (min-width: 800px){
+@media (min-width: 820px){
     .section_weAbout{
         width: 80vw;
         text-align: center;

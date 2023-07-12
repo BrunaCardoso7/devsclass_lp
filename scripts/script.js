@@ -31,7 +31,6 @@
     changeNagation()
 
 
-
     const menu_burger = document.querySelector('#menu_burger')
     menu_burger.addEventListener('click', showMenu)
     function showMenu(){
@@ -47,7 +46,7 @@
     })
     window.addEventListener('resize', verificationMediaScreen)
     function verificationMediaScreen(){
-        if(window.innerWidth <= 800){
+        if(window.innerWidth <= 820){
             menu_burger.style.display = 'block'
         }else{
             menu_burger.style.display = 'none'

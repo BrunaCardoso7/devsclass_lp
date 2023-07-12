@@ -43,15 +43,16 @@
 }
 .conteiner_imageTaste{
     position: relative;
-    height: 40vh;
-    width: 70vw;
+    height: 500px;
+    min-width: 250px;
+    max-width: 400px;
     background-color: rgb(242, 248, 252);
     margin-top: 20px;
 }
 .entiqueta{
     position: absolute;
     bottom: -5%;
-    left: 20%;
+    right: 50%; 
     width: 30px;
     
 }
@@ -67,16 +68,6 @@
 .entiqueta span{
     color: rgb(0, 165, 0);
 }   
-#left{
-    position: absolute;
-    top: 30%;
-    left: -1%;
-}
-#right{
-    position: absolute;
-    top: 30%;
-    left: 90%;
-}
 .conteiner_text_services{
     margin: 10px 0;
     margin-bottom: 100px;
@@ -84,19 +75,40 @@
 
 .etq1{
     position: absolute;
-    bottom: -15%;
-    left: 18%;
+    bottom: -30px;
+    left: 20%;
 
 }
 .etq2{
     position: absolute;
     bottom: -15%;
-    left: 18%;
+    left: 15%;
 
 }
 .etq3{
     position: absolute;
     bottom: -15%;
-    left: 18%;
+    left: 15%;
 
+}
+@media(min-width: 820px){
+    .btn_more{
+        display:none;
+    }
+    .tecnology_used{
+        display: block;
+    }
+    .conteiner_text_services{
+        display:flex;
+    }
+    .img h4{
+        width: 40vw;
+        font-size: 1.2em;
+    }
+    .conteiner_partServices p{
+        width: 40vw;
+        font-size: 1.3em;
+        margin: 10px 0;
+    }
+  
 }
